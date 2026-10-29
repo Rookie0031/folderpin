@@ -1,0 +1,33 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FolderPin — 지원</title><link rel="stylesheet" href="style.css"></head><body><main>
+<nav><a href="ko.html">지원</a><a href="#privacy">개인정보처리방침</a><a href="./">English</a></nav>
+<h1>FolderPin 지원</h1>
+<p>FolderPin은 다운로드 폴더처럼 <b>추가된 날짜</b>로 정렬한 Finder 목록에서, 고른 폴더를 맨 위에 고정해 주는 메뉴 막대 앱이에요.</p>
+<h2>문의</h2>
+<p>질문, 버그 신고, 기능 제안은 <a href="https://github.com/Rookie0031/folderpin/issues">이슈로 남겨 주세요</a>. 모두 읽어요.</p>
+<h2>동작 방식</h2>
+<p>폴더를 고정하면 FolderPin이 macOS 공개 API로 그 폴더의 <b>추가된 날짜</b>를 2100년으로 바꿔요. 그러면 Finder가 추가된 날짜 최신순으로 정렬할 때 그 폴더를 맨 위에 보여 줘요. 원래 날짜는 기억해 두었다가, 고정을 해제하면 정확히 되돌려요. Finder를 수정하지 않고, 시스템 무결성 보호(SIP)도 끄지 않아요.</p>
+<h2>한계 — 꼭 읽어 주세요</h2>
+<ul>
+<li><b>추가된 날짜 최신순</b> 정렬일 때만 맨 위에 와요(보기 › 다음으로 정렬 › 추가된 날짜). 이름순, 수정일순, 오래된 순에서는 달라지지 않아요.</li>
+<li>Finder에서 날짜별로 묶어 보면 고정한 폴더가 맨 위의 별도 묶음으로 보일 수 있어요.</li>
+<li>추가된 날짜를 쓰는 다른 곳도 2100년으로 봐요. Spotlight, 추가된 날짜로 거르는 스마트 폴더, Dock의 다운로드 스택 순서가 그래요.</li>
+<li>iCloud Drive에 있는 폴더(iCloud와 동기화하는 데스크탑·문서 포함), 네트워크 볼륨, 추가된 날짜를 저장하지 않는 디스크의 폴더는 고정할 수 없어요.</li>
+<li>고정한 폴더를 다른 폴더로 옮기면 macOS가 추가된 날짜를 새로 매겨요. FolderPin을 다시 켜거나 Finder로 돌아올 때 다시 고정해요. 접근 권한을 잃으면 <b>다시 허용</b>이 보여요.</li>
+</ul>
+<h2>FolderPin을 지우기 전에</h2>
+<p>설정에서 <b>모두 해제하고 원래 날짜로 되돌리기</b>를 눌러 주세요. 먼저 지우면 고정한 폴더의 추가된 날짜가 2100년으로 남아요.</p>
+<p><b>이미 지웠다면?</b> FolderPin을 다시 설치하세요. 고정 목록이 남아 있으면 설정에서 모두 해제하면 원래 날짜로 돌아가요. 목록이 비어 있으면 Finder에서 2100년으로 남은 폴더를 하나씩 우클릭하고 서비스에서 <b>FolderPin 고정 해제</b>를 고르세요. 추가된 날짜가 지금 시각이 돼요. 원래 날짜는 되찾을 수 없어요.</p>
+<h2>자주 묻는 질문</h2>
+<p><b>Pro는 구독인가요?</b> 아니요. 한 번 구매로 폴더를 무제한 고정해요. 무료로는 폴더 1개를 고정할 수 있어요. 고정 해제와 원래 날짜 복원은 언제나 무료예요. 같은 Apple 계정으로 로그인한 다른 Mac에서는 설정의 "구매 복원"을 쓰세요.</p>
+<p><b>Finder에서 바로 고정할 수 있나요?</b> 네. 폴더를 우클릭하고 서비스에서 <b>FolderPin으로 맨 위에 고정</b>을 고르세요.</p>
+<p><b>파일 내용이 바뀌나요?</b> 아니요. 고정한 폴더의 추가된 날짜만 바뀌어요.</p>
+<h2 id="privacy">개인정보처리방침</h2>
+<p class="muted">최종 수정: 2026년 10월 26일</p>
+<p>FolderPin은 개인정보를 수집하지 않고, 서버에 저장하지 않으며, 다른 곳과 공유하지 않아요. 계정, 분석, 광고, 추적이 없어요.</p>
+<ul>
+<li>Mac에만 저장되는 것: 고정한 폴더 목록, 각 폴더의 원래 추가된 날짜, macOS가 그 폴더에 대해 FolderPin에 준 접근 권한(보안 범위 북마크). 모두 이 Mac의 FolderPin 컨테이너 안에만 있어요.</li>
+<li>FolderPin은 고른 폴더의 추가된 날짜만 읽고 바꿔요. 파일 내용은 읽지 않아요.</li>
+<li>Pro 결제는 Mac App Store에서 Apple이 처리해요. FolderPin은 StoreKit으로 Pro가 열렸는지만 확인하고, 결제 정보는 보지 않아요.</li>
+</ul>
+<p class="muted"><small>macOS 15 이상이 필요해요.</small></p>
+</main></body></html>
